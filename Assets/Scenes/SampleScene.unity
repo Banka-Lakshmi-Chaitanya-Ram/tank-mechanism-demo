@@ -386,6 +386,7 @@ GameObject:
   - component: {fileID: 330585545}
   - component: {fileID: 330585544}
   - component: {fileID: 330585547}
+  - component: {fileID: 330585548}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -460,13 +461,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.041264784, y: 0.7258226, z: -0.0753425, w: -0.682497}
-  m_LocalPosition: {x: 2.3171546, y: 3.9099996, z: 0.006333226}
-  m_LocalScale: {x: 0.63231486, y: 1.5254207, z: 0.39438727}
+  m_LocalRotation: {x: -0.21444382, y: 0.69464743, z: -0.23711382, w: -0.64440346}
+  m_LocalPosition: {x: 18.100014, y: 5.28, z: 1.52}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1805815554}
-  m_LocalEulerAnglesHint: {x: 9.538, y: 266.684, z: 2.496}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 37.286, y: 265.889, z: 0.552}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -511,6 +512,19 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!114 &330585548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330585543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ee4d3c20cb3e42ff9f830e535c5c3e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::playerfollow
+  player: {fileID: 1186081805}
 --- !u!1 &404433994
 GameObject:
   m_ObjectHideFlags: 0
@@ -1680,12 +1694,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
   gunpoint: {fileID: 4484019}
-  bulletSpeed: 20
+  bulletSpeed: 30
   bulletPrefab: {fileID: 6563590231195758073, guid: de8e9ef14656b408c936e76c078e9f13, type: 3}
   moveSpeed: 10
-  rotationSpeed: 2
+  rotationSpeed: 1.3
   towertransformation: {fileID: 1596584399}
-  towerrotationspeed: 2
+  towerrotationspeed: 1.3
   WhatIsAimMask:
     serializedVersion: 2
     m_Bits: 1
@@ -2811,7 +2825,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 171019467}
-  - {fileID: 330585546}
   m_Father: {fileID: 1186081805}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!23 &1805815555
@@ -3786,6 +3799,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 410087041}
+  - {fileID: 330585546}
   - {fileID: 832575519}
   - {fileID: 1009204231}
   - {fileID: 1186081805}
