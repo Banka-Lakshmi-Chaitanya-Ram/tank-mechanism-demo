@@ -19,11 +19,15 @@ The goal of this project was **learning and experimentation**, not building a co
 
 ## 📸 Screenshots
 
-> Screenshots are stored inside the `Screenshots/` folder in this repository.
+Screenshots are stored inside the
 
-![Gameplay](Screenshots/gameplay.png)
-![Aiming](Screenshots/aiming.png)
-![Shooting](Screenshots/shooting.png)
+`Assets/
+Screenshots/
+    gameplay.png
+    aiming.png`
+
+folder in this repository.
+
 
 ---
 
@@ -111,5 +115,5 @@ This project helped me understand some common beginner problems:
 
 ## 👨‍💻 Author
 
-Chaitanya Ram
+Banka Lakshmi Chaitanya Ram
 (Beginner Unity Project)
